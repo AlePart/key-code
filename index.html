@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Key-Code</title>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <style>
+        body {
+          font-family: "Roboto", serif;
+            background-color: #f8f9fa;
+        }
+    </style>
+    <script>
+        window.onload = function() {
+            const title = document.querySelector('#title');
+            title.style.opacity = 1;
+            title.style.transform = 'translateY(0)';
+            window.scrollTo({
+                top: title.offsetTop - (window.innerHeight / 2),
+                behavior: 'smooth'
+            });
+        };
+    </script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" >
+        <div class="container-fluid" >
+            <a class="navbar-brand" href="#">
+                <img src="assets/Key-Code-03.jpg" alt="Key-Code Logo" style="width: 60px; height: 60px;">
+                Key-Code
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+     
+            <script>
+                document.querySelector('.navbar-toggler').addEventListener('click', function() {
+                    const navbarNav = document.querySelector('#navbarNav');
+                    navbarNav.classList.toggle('show');
+                });
+
+
+            </script>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav" style="justify-content: flex-start;">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Servizi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contatti</a>
+                    </li>
+                </ul>
+                <script>
+                    document.querySelectorAll('.nav-link').forEach(function(link) {
+                        link.addEventListener('click', function() {
+                            const navbarNav = document.querySelector('#navbarNav');
+                            navbarNav.classList.toggle('show');
+                        });
+                    });
+                </script>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid" style= "padding-top: 70px;"></div>
+        <div class="embed-responsive-item" style="z-index: -1;  display:flex; justify-content: center; align-items: center; background-color: rgba(0, 0, 0, 0.7); ">
+            
+            <div class="row">
+                <div class="col-md-12" >
+                    
+                    <video class="embed-responsive-item" src="assets/coding.mp4" autoplay muted loop  width="100%"  style="opacity: 0.3; ">
+                        
+                    </video>
+
+                </div>
+                <div class="col-md-12" style="padding-bottom: 30px;">
+                  
+                    <h1 class="text-center" id="title" style="font-size: 42px; font-weight: bold; color: #007bff; text-shadow: 2px 2px 4px #000; opacity: 1;">Sviluppo software professionale</h1>
+  
+                    <p class="text-center" style="font-size: 24px; color: #fff; text-shadow: 2px 2px 4px #000; opacity: 1;">Siamo specializzati nello sviluppo di software embedded e cloud</p>
+                    <a href="#services" class="btn btn-primary col-md-2" style="display: block; margin: 0 auto; margin-top: 20px; ">Scopri di più</a>
+                    
+                </div>
+            </div>
+
+
+                
+           
+            
+        
+            
+            
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="row" style="margin-top: 5%; margin-bottom: 5%;">
+            <div class="col-md-12">
+                <div class="text-center">
+                    <div class="navbar-logo-container">
+                        <img src="assets/Key-Code-03.jpg" alt="Key-Code Logo" style="width: 100px; height: 100px; border-radius: 50%;">
+                    </div>
+                    <div class="text-right"></div>
+                        <h2 style="font-family: Arial, sans-serif; margin-top: 20px;">Forniamo i migliori servizi di sviluppo</h2>
+                    </div>
+                </div>
+                <style>
+                    .navbar-logo-container {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        animation: rotate 10s linear infinite;
+                    }
+
+                    @keyframes rotate {
+                        0% {
+                            transform: rotate(0deg);
+                        }
+                        33% {
+                            transform: rotate(120deg);
+                        }
+                        66% {
+                            transform: rotate(240deg);
+                        }
+                        100% {
+                            transform: rotate(360deg);
+                        }
+                    }
+                </style>
+            </div>
+        </div>
+       
+        <div class="container-fluid row" >
+            <section id="services">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="card" style="background-color: rgba(58, 165, 252, 0.5); padding: 20px; border-radius: 20px;">
+                                <h2 class="card-title" style="font-size: 24px; font-weight: bold; margin-bottom: 10px; text-align: center;">Le nostre Sfide</h2>
+                                <!---img src="[Image of engineers working on embedded software]" alt="Team of engineers working on embedded software"> -->
+                                <p class="card-description" style="font-size: 16px; margin-bottom: 20px;">Nel corso della nosta esperienza abbiamo sviluppato competenze in differenti settori e portato a termine sfide grandi e piccole</p>
+
+                                <h3 style="font-size: 18px; font-weight: bold; margin-bottom: 10px;">Settori</h3>
+                                <ul class="skills-list" style="list-style-type: disc; margin-left: 20px;">
+                                    <li style="font-size: 14px; margin-bottom: 5px;">Industriale</li>
+                                    <li style="font-size: 14px; margin-bottom: 5px;">Visione</li>
+                                    <li style="font-size: 14px; margin-bottom: 5px;">Automotive e Aerospaziale</li>
+                                    <li style="font-size: 14px; margin-bottom: 5px;">IT e Cloud</li>
+                                    <li style="font-size: 14px; margin-bottom: 5px;">IoT</li>
+                                    <li style="font-size: 14px; margin-bottom: 5px;">Software Gestionali</li>
+
+                                </ul>
+
+                                <h3 style="font-size: 18px; font-weight: bold; margin-bottom: 10px;">Competenze e Servizi</h3>
+                                <ul class="benefits-list" style="list-style-type: disc; margin-left: 20px;">
+                                    <p>Che il tuo sia un progetto Embedded IoT Cloud o Hardware, Key-Code è in grado, anche attraverso la sua rete di esperti, di metterti in contatto con il professionista su misura per i tuoi obiettivi.</li>
+                                    <p>Key-Code lavora sia su progetti chiavi in mano che su commessa, fornendo sempre una professionalità all'altezza delle aspettative.</li>
+                                    <p>Il nostro team di sviluppatori è in grado di realizzare software su misura per le tue esigenze, garantendo sempre la massima qualità e affidabilità.</li>
+                                    <li style="font-size: 18px; margin-bottom: 5px;">Sviluppo software embedded</li>
+                                    <li style="font-size: 18px; margin-bottom: 5px;">Sviluppo software cloud</li>
+                                    <li style="font-size: 18px; margin-bottom: 5px;">Sviluppo software gestionali</li>
+                                    <li style="font-size: 18px; margin-bottom: 5px;">Sviluppo software Backend e API</li>
+                  
+
+                                </ul>
+
+                                <a href="#contact" class="call-to-action col-md-12" style="display: block; text-align: center; font-size: 16px; font-weight: bold; margin-top: 20px; text-decoration: none; color: #fff; background-color: #007bff; padding: 10px 20px; border-radius: 5px; ">Contattaci!</a>
+                            </div>
+                        </div>
+                       
+                       
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact">
+                <div class="container" style="margin-top: 10%;">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="card" style="background-color: rgba(255, 255, 255, 0.5); padding: 20px; border-radius: 10px; margin-top: 3;">
+                                <h2 style="font-size: 24px; font-weight: bold; margin-bottom: 20px;">Contattaci</h2>
+                                <p style="font-size: 16px; margin-bottom: 20px;">Per ulteriori informazioni sui nostri servizi di sviluppo software, non esitare a contattarci. Saremo lieti di rispondere a tutte le tue domande e di fornirti una consulenza gratuita.</p>
+
+                                <form id="fs-frm" name="complaint-form" accept-charset="utf-8" action="https://formspree.io/f/xpzvnznk" method="post">
+                                    <fieldset id="fs-frm-inputs">
+                                        <div class="mb-3">
+                                      <label for="full-name" class="form-label">Nome</label>
+                                      <input class="form-control" type="text" name="name" id="full-name" placeholder="Inserisci il tuo nome" required="">
+                                        </div>
+                                      <div class="mb-3">
+                                      <label for="email-address" class="form-label">Email</label>
+                                      <input class="form-control" type="email" name="_replyto" id="email-address" placeholder="Inserisci la tua email" required="">
+                                        </div>
+                                        <div class="mb-3">
+                                      <label for="telephone" class="form-label" >Telefono</label>
+                                      <input class="form-control" type="telephone" name="telephone" id="telephone" placeholder="Inserisci il tuo numero di telefono">
+                                        </div>
+                                        <!-- <div class="mb-3">
+                                      <label for="complaint" class="form-label">Messaggio</label>
+                                      <textarea class="form-control" id="complaint" rows="5" placeholder="Inserisci il tuo messaggio"></textarea>
+                                        </div> -->
+                                    </fieldset>
+                                    <input type="submit" value="Invia" class="btn btn-primary"></div>
+                                  </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <footer class="footer">
+            <footer class="footer" style="background-color: #007bff; color: #fff; padding-top: 30px; margin-top: 50px">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p class="text-center">
+                                <i class="fas fa-code"></i> Key-Code &copy; 2024. All rights reserved.
+                            </p>
+                            <p class="text-center">
+                                Via Piave 18, 31030 Castello di Godeo (TV) - Tel: 0423 191 7073 - Email: info@key-code.dev
+                            </p>
+                            <p class="text-center">
+                               P.IVA 05332870269 - REA 436694 / TV
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            </div>
+        </footer>
+    </div>
+    
+   
+
+    
+ 
+
+
+</body>
+
+</html>
